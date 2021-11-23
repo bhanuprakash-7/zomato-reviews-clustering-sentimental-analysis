@@ -18,3 +18,27 @@ Zomato is an Indian restaurant aggregator and food delivery start-up founded by 
     MetaData : Reviewer Metadata - No. of Reviews and followers
     Time: Date and Time of Review
     Pictures : No. of pictures posted with review
+    
+    
+# SUMMARY
+As the restaurants are increasing day by day, it has been difficult for people to
+choose a restaurant over others. And for the restaurant owners, they need to understand
+what they are lacking behind.
+Our project’s objectives are to cluster the restaurants, so that people can easily
+chose the restaurant they want. And sentiment analysis to analyze the reviews given by
+the reviewers/ critics. And EDA which can solve some business case problems.
+At first, we used K-Means Clustering approach without scaling the features in order
+to give priority to the cost and average ratings columns. Clustering was done on the basis
+of cost and average ratings, so that people can choose affordable and better restaurant.
+And afterwards, we used we used K-Means Clustering approach with scaling. And we
+performed dimensional reduction using Principal Component Analysis (PCA). Then, the
+data was clustered based on cuisines, so that people can chose the restaurants based on
+what they want to have.
+The total nine thousand reviews are mapped with sentiment score which was
+retrieved from polarity score from Text Blob which were further classified into positive,
+negative and neutral. So, with these we can easily retrieve the main phrases that were
+repeated in most of the reviews. From which Restaurants can check in which aspect they
+were lacking. The average rating which was given in dataset and the average sentiment
+score of the reviews which were calculated based on the sentiment score were compared.
+Some of the ratings given badly just because of packing and delivery issues. So, it’s better
+to store individual ratings for all the categories.
